@@ -81,7 +81,7 @@ Confundi-las é o erro estrutural que produz o descolamento atual entre catálog
 
 ## Como o sistema se encaixa no mundo
 
-Diagrama de contexto — as pessoas e os sistemas com que ele conversa.
+Diagrama de contexto — as pessoas e os sistemas com que ele conversa. Os dados saem por dois caminhos: **tabelas de publicação** mapeadas pelo IPT, que gera os arquivos Darwin Core Archive, e a **API pública**, para outros sistemas de biodiversidade e para scripts de análise.
 
 ```mermaid
 graph TB
@@ -102,6 +102,8 @@ graph TB
     BOLD["BOLD"]
     LCH["Local Contexts Hub"]
     IPT["IPT"]
+    OUT["Outros sistemas<br/>de biodiversidade"]
+    ANA["Scripts de análise<br/>e pesquisa"]
     CD["Comunidade Detentora"]
 
     EG --> SIS
@@ -118,7 +120,9 @@ graph TB
     DOI -->|"publicações"| SIS
     BOLD -->|"agrupamentos moleculares"| SIS
     LCH -->|"Labels e Notices"| SIS
-    SIS -->|"tabelas de publicação"| IPT
+    SIS -->|"tabelas de publicação<br/>Darwin Core Archive"| IPT
+    SIS -->|"API pública"| OUT
+    SIS -->|"API pública"| ANA
     CD -->|"define suas Labels"| LCH
 
     style SIS fill:#dce9ff
