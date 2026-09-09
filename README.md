@@ -2,6 +2,11 @@
 
 > **Este é um projeto de pesquisa.** Nada aqui é software em produção, e nada substitui o [Catálogo Taxonômico da Fauna do Brasil](https://fauna.jbrj.gov.br/), o [GBIF](https://www.gbif.org/) ou o [SiBBr](https://sibbr.gov.br/). O que este repositório contém é o desenho de **como seria um sistema ideal** — e o registro das decisões que levaram a ele. Ver [`docs/projetoPesquisa.md`](./docs/projetoPesquisa.md).
 
+**Responsáveis**
+
+- **Dr. Eduardo Dalcin** — Instituto de Pesquisas Jardim Botânico do Rio de Janeiro
+- **Dr. Walter Boeger** — Coordenador do Catálogo Taxonômico da Fauna do Brasil
+
 ---
 
 ## O problema, em uma frase

@@ -2,6 +2,13 @@
 
 Este repositório documenta um **exercício acadêmico de arquitetura de informação**: a proposta de um sistema de informações sobre a fauna brasileira (reino Animalia) em que cada nome científico esteja profundamente vinculado às evidências que o sustentam. Nada aqui está implantado, nada está em produção, e nada substitui o Catálogo Taxonômico da Fauna do Brasil (CTFB), o GBIF ou o SiBBr — essa é a delimitação central da arquitetura, registrada no [ADR 0001](./adr/0001-sistema-de-registro-greenfield.md), e vale para todo documento deste repositório sem exceção.
 
+## Responsáveis
+
+| Responsável | Vínculo |
+|---|---|
+| **Dr. Eduardo Dalcin** | Instituto de Pesquisas Jardim Botânico do Rio de Janeiro |
+| **Dr. Walter Boeger** | Coordenador do Catálogo Taxonômico da Fauna do Brasil |
+
 ## 1. Natureza e delimitação
 
 O que este projeto **é**: um desenho de arquitetura de software, produzido pelo método C4 Model e por Architecture Decision Records (ADRs), que responde à pergunta "como seria o sistema ideal?" sem as restrições de retrocompatibilidade, orçamento ou base instalada que um sistema em produção carrega. É um artefato de pesquisa em arquitetura de informação biológica, não um produto.
