@@ -26,7 +26,7 @@ graph LR
         D["Hipótese de Espécie"]
         E["Evidência"]
         F["Espécime em coleção"]
-        C -->|"rotula"| D
+        C -->|"rótulo"| D
         D -->|"sustentada por"| E
         E -->|"deriva de"| F
         F -->|"ancora o nome<br/>quando é tipo"| C
@@ -89,7 +89,7 @@ Confundi-las é o erro estrutural que produz o descolamento atual entre catálog
 Diagrama de contexto — as pessoas e os sistemas com que ele conversa. Os dados saem por dois caminhos: **tabelas de publicação** mapeadas pelo IPT, que gera os arquivos Darwin Core Archive, e a **API pública**, para outros sistemas de biodiversidade e para scripts de análise.
 
 ```mermaid
-graph TB
+graph LR
     EG["Especialista de Grupo"]
     PC["Pesquisador Contribuinte"]
     GC["Gestor de Coleção"]
