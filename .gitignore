@@ -1,0 +1,12 @@
+# Dumps de banco de dados (grandes, não versionar)
+*.dump
+*.sql.gz
+*.tar.gz
+
+# Ambiente
+.env
+.env.*
+!.env.example
+
+# Sistema
+.DS_Store
